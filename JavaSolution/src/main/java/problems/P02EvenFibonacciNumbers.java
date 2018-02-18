@@ -8,10 +8,10 @@ package main.java.problems;
  * By considering the terms in the Fibonacci sequence whose values do not exceed four million, find the sum of
  * the even-valued terms.
  */
-public class P2EvenFibonacciNumbers {
-    private static P2EvenFibonacciNumbers problem2 = null;
+public class P02EvenFibonacciNumbers {
+    private static P02EvenFibonacciNumbers problem2 = null;
 
-    protected P2EvenFibonacciNumbers() {
+    protected P02EvenFibonacciNumbers() {
         // no instantiation
     }
 
@@ -23,14 +23,13 @@ public class P2EvenFibonacciNumbers {
         Long subOne = 0L;
         Long subTwo = 1L;
 
-        while(fib < 4000000) {
-            if(fib % 2 == 0) {
-                sum = sum + fib;
-            }
+        while (fib < 4000000) {
+            if(fib % 2 == 0) sum = sum + fib;
             fib = subOne + subTwo;
             subOne = subTwo;
             subTwo = fib;
         }
+
         System.out.println(sum);
     }
 }

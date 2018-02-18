@@ -7,10 +7,10 @@ package main.java.problems;
  * There exists exactly one Pythagorean triplet for which a + b + c = 1000.
  * Find the product abc.
  */
-public class P9SpecialPythagoreanTriplet {
-    private static P9SpecialPythagoreanTriplet problem1 = null;
+public class P09SpecialPythagoreanTriplet {
+    private static P09SpecialPythagoreanTriplet problem1 = null;
 
-    protected P9SpecialPythagoreanTriplet() {
+    protected P09SpecialPythagoreanTriplet() {
         // no instantiation
     }
 

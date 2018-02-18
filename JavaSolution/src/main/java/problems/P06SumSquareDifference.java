@@ -9,14 +9,25 @@ package main.java.problems;
  * is 3025 − 385 = 2640.
  * Find the difference between the sum of the squares of the first one hundred natural numbers and the square of the sum.
  */
-public class P6SumSquareDifference {
-    private static P6SumSquareDifference problem1 = null;
+public class P06SumSquareDifference {
+    private static P06SumSquareDifference problem1 = null;
 
-    protected P6SumSquareDifference() {
+    protected P06SumSquareDifference() {
         // no instantiation
     }
 
     public static void solveProblem() {
         System.out.println("Problem 6: Sum Square Difference");
+
+        Long sumSquare = 0L;
+        Long squareSum = 0L;
+
+        for (int i = 1; i <= 100; i++) {
+            sumSquare += i * i;
+            squareSum += i;
+        }
+
+        Long r = squareSum*squareSum - sumSquare;
+        System.out.println(r);
     }
 }
