@@ -8,7 +8,7 @@ package main.java.problems;
  * Find the product abc.
  */
 public class P09SpecialPythagoreanTriplet {
-    private static P09SpecialPythagoreanTriplet problem1 = null;
+    private static P09SpecialPythagoreanTriplet problem = null;
 
     protected P09SpecialPythagoreanTriplet() {
         // no instantiation
@@ -16,5 +16,21 @@ public class P09SpecialPythagoreanTriplet {
 
     public static void solveProblem() {
         System.out.println("Problem 9: Special Pythagorean Triplet");
+
+        Integer sum = 1000;
+        Integer product = 0;
+
+        for (int a = 1; a <= sum/2; a++) {
+            for (int b = a+1; b <= sum/2; b++) {
+                Integer k = (int)Math.pow(a, 2) + (int)Math.pow(b, 2);
+                Double possibleC = Math.sqrt(k);
+                if (a + b + possibleC > sum) break;
+                else if (Math.floor(possibleC) == possibleC && a + b + possibleC == sum) {
+                    product = a * b * (int)Math.floor(possibleC);
+                }
+            }
+        }
+
+        System.out.println(product);
     }
 }

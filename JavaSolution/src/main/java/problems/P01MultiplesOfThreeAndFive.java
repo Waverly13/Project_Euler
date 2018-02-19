@@ -7,7 +7,7 @@ package main.java.problems;
  * Find the sum of all the multiples of 3 or 5 below 1000.
  */
 public class P01MultiplesOfThreeAndFive {
-    private static P01MultiplesOfThreeAndFive problem1 = null;
+    private static P01MultiplesOfThreeAndFive problem = null;
 
     protected P01MultiplesOfThreeAndFive() {
         // no instantiation
@@ -19,7 +19,7 @@ public class P01MultiplesOfThreeAndFive {
         int count = 0;
 
         for (int i = 0; i <= 999; i++) {
-            if (i % 3 == 0 || i % 5 == 5) count = count+i;
+            if (i % 3 == 0 || i % 5 == 0) count = count+i;
         }
 
         System.out.println(count);

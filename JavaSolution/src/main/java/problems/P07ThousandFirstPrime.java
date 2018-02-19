@@ -8,7 +8,7 @@ import java.util.List;
  * What is the 10,001st prime number?
  */
 public class P07ThousandFirstPrime {
-    private static P07ThousandFirstPrime problem1 = null;
+    private static P07ThousandFirstPrime problem = null;
 
     protected P07ThousandFirstPrime() {
         // no instantiation

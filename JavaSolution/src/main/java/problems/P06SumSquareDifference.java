@@ -10,7 +10,7 @@ package main.java.problems;
  * Find the difference between the sum of the squares of the first one hundred natural numbers and the square of the sum.
  */
 public class P06SumSquareDifference {
-    private static P06SumSquareDifference problem1 = null;
+    private static P06SumSquareDifference problem = null;
 
     protected P06SumSquareDifference() {
         // no instantiation

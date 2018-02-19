@@ -7,7 +7,7 @@ package main.java.problems;
  * Find the largest palindrome made from the product of two 3-digit numbers.
  */
 public class P04LargestPalindromeProduct {
-    private static P04LargestPalindromeProduct problem1 = null;
+    private static P04LargestPalindromeProduct problem = null;
 
     protected P04LargestPalindromeProduct() {
         // no instantiation

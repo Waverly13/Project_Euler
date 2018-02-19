@@ -9,7 +9,7 @@ package main.java.problems;
  * the even-valued terms.
  */
 public class P02EvenFibonacciNumbers {
-    private static P02EvenFibonacciNumbers problem2 = null;
+    private static P02EvenFibonacciNumbers problem = null;
 
     protected P02EvenFibonacciNumbers() {
         // no instantiation

@@ -5,7 +5,7 @@ package main.java.problems;
  * What is the smallest positive number that is evenly divisible by all of the numbers from 1 to 20?
  */
 public class P05SmallestMultiple {
-    private static P05SmallestMultiple problem1 = null;
+    private static P05SmallestMultiple problem = null;
 
     protected P05SmallestMultiple() {
         // no instantiation
