@@ -9,7 +9,7 @@ import scala.util.control.Breaks._
   * There exists exactly one Pythagorean triplet for which a + b + c = 1000.
   * Find the product abc.
   */
-object P9SpecialPythagoreanTriplet {
+object P09SpecialPythagoreanTriplet {
   println("Problem 9: Special Pythagorean Triplet")
 
   val sum: Int = 1000

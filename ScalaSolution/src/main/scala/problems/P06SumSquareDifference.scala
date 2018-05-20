@@ -9,7 +9,7 @@ package main.scala.problems
   * is 3025 − 385 = 2640.
   * Find the difference between the sum of the squares of the first one hundred natural numbers and the square of the sum.
   */
-object P6SumSquareDifference {
+object P06SumSquareDifference {
   println("Problem 6: Sum Square Difference")
 
   var sumSquare: Long = 0L

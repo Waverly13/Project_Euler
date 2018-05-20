@@ -8,7 +8,7 @@ package main.scala.problems
   * By considering the terms in the Fibonacci sequence whose values do not exceed four million, find the sum of
   * the even-valued terms.
   */
-object P2EvenFibonacciNumbers {
+object P02EvenFibonacciNumbers {
   println("Problem 2: Even Fibonacci Numbers")
 
   var fib: Long = 0L

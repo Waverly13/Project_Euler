@@ -6,7 +6,7 @@ package main.scala.problems
   * is 9009 = 91 × 99.
   * Find the largest palindrome made from the product of two 3-digit numbers.
   */
-object P4LargestPalindromeProduct {
+object P04LargestPalindromeProduct {
   println("Problem 4: Largest Palindrome Product")
 
   var bound: Int = 100

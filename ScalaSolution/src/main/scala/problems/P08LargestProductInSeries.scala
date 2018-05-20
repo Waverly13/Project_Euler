@@ -26,7 +26,7 @@ package main.scala.problems
   *
   * Find the thirteen adjacent digits in the 1000-digit number that have the greatest product. What is the value of this product?
   */
-object P8LargestProductInSeries {
+object P08LargestProductInSeries {
   println("Problem 8: Largest Product in a Series")
 
   val digits: List[Long] = List(7,3,1,6,7,1,7,6,5,3,1,3,3,0,6,2,4,9,1,9,2,2,5,1,1,9,6,7,4,4,2,6,5,7,4,7,4,2,3,5,5,3,4,9,
